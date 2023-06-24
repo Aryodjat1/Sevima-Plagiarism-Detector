@@ -12,7 +12,7 @@ data class Choice(
     @SerializedName("index")
     val index: Int,
     @SerializedName("logprobs")
-    val logprobs: String,
+    val logprobs: Int,
     @SerializedName("text")
     val text: String
 ) : Parcelable
